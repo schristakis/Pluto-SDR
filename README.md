@@ -1,6 +1,6 @@
 # Pluto-SDR
 
-###################### IP CONFIGURATION #######################
+###################### Pluto SDR IP Configuration #######################
 
 When pluto is connected to the host machine, find and open the config.txt file.
 In order to change the IP we need to update the [NETWORK] settings of the PlutoSDR ipaddr (default is 192.168.2.1), 
@@ -13,7 +13,7 @@ Finally unplug the SDR device and plug it in back and the IP should have been ch
 
 
 
-##################### Pluto Access via Ethernet #################################
+##################### Pluto SDR Access via Ethernet #################################
 
 When pluto is connected to the host machine, find and open the config.txt file.
 In order to access Pluto via ethernet we need to update the [ETHERNET] settings of the PlutoSDR.
