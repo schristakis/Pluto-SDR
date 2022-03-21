@@ -19,7 +19,7 @@ When pluto is connected to the host machine, find and open the config.txt file.
 In order to access Pluto via ethernet we need to update the [ETHERNET] settings of the PlutoSDR.
 Go under [ETHERNET] and change the ipaddr_eth to the desired IP. 
 Caution: the IP must belong to the subnet of the LAN.
-(In my case the LAN uses 10.64.45.45 subnet and the IP I gave Pluto is 10.64.45.45)
+(In my case the LAN uses 10.64.45.0 subnet and the IP I gave Pluto is 10.64.45.45)
 Then, save the configured file and eject (not unplug) the PlutoSDR device from your host.
 Wait for 5 seconds
 Finally unplug the SDR device and plug it in back and the IP should have been changed successfully
