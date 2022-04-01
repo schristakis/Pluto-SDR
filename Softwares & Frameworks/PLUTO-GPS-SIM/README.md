@@ -32,6 +32,7 @@ sudo make install
 git clone https://github.com/mictronics/multi-sdr-gps-sim
 
 cd multi-sdr-gps-sim
+make all PLUTOSDR=yes
 
 /etc/init.d/dbus start
 /etc/init.d/avahi-daemon start
@@ -67,3 +68,42 @@ SDR device types (use with --radio or -r option):
     iqfile
     hackrf
     plutosdr
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #####################################################
+    
+Set static mode location:
+
+> pluto-gps-sim -e brdc3540.14n -l 30.286502,120.032669,100
+Set user motion mode:
+
+> pluto-gps-sim -e brdc3540.14n -u circle.csv
+Set TX attenuation:
+
+> pluto-gps-sim -e brdc3540.14n -A -30.0
+Default -20.0dB. Applicable range 0.0dB to -80.0dB in 0.25dB steps.
+
+Set RF bandwidth:
+
+> pluto-gps-sim -e brdc3540.14n -B 3.0
+Default 3.0MHz. Applicable range 1.0MHz to 5.0MHz
+
+Transmitting the samples
+The TX port of a particular SDR platform is connected to the GPS receiver under test through a DC block and a fixed 50-60dB attenuator.
