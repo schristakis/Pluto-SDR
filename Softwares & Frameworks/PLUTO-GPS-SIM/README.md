@@ -1,4 +1,7 @@
 
+./gps-sim -e brdc0910.22n -l 39.3597375,22.9386821,1 -r plutosdr
+
+
 https://github.com/Mictronics/multi-sdr-gps-sim
 
 sudo apt-get install libxml2 libxml2-dev bison flex libcdk5-dev cmake
