@@ -1,6 +1,7 @@
 Retrogram is a wideband spectrum analyzer on your terminal/ssh console with ASCII art.
 
 ###################   Installation   ##########################
+
 To install and run the program download Retrogram-Pluto-SDR folder and
 in that folder execute the command -> ./setup.sh
  
