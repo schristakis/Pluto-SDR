@@ -51,5 +51,5 @@ https://github.com/f4exb/sdrangel/releases/download/v6.20.2/sdrangel-6.20.2-win6
 
 Run it and follow the instructions on the wizard.
 
-Once the installation is completed, find your SDR device and you are ready to use the interface.
+Once the installation is complete, find your SDR device and you are ready to use the interface.
 
