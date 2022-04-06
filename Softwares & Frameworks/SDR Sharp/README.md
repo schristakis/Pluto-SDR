@@ -1,2 +1,2 @@
 
-https://airspy.com/download/
+https://airspy.com/downloads/sdrsharp-x86-noskin.zip
