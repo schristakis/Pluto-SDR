@@ -87,5 +87,19 @@ RUN WITH:
 
 ssh -t root@192.168.2.1 /root/dump1090 [OPTIONS] 
 
+If the following error occurs: 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+
+@ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @ 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! Someone could be eavesdropping on you right now (man-in-the-middle attack)! 
+
+It is also possible that a host key has just been changed.
+
+Do: ssh-keygen -f "/home/"hostname"/.ssh/known_hosts" -R "10.64.45.45" If error insists, then you should probably try to ssh for the first time: ssh root@10.64.45.45 (password: analog) Then exit and rerun ./setup.sh
+
 
 
