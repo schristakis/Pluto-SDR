@@ -47,6 +47,6 @@ arm-linux-gnueabihf-gcc -mfloat-abi=hard --sysroot=$HOME/pluto-0.30.sysroot -std
 arm-linux-gnueabihf-gcc -mfloat-abi=hard --sysroot=$HOME/pluto-0.30.sysroot -std=gnu99 -O2 -g -o dump1090 dump1090.o anet.o  -liio -lpthread -lm -lad9361
 scp dump1090 root@192.168.2.1:/root/
 RUN WITH:
-ssh -t root@192.168.2.1 /root/dump1090 [OPTIONS] 
+ssh -t root@192.168.2.1 /root/dump1090 [OPTIONS]
 
 
