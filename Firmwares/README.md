@@ -18,7 +18,9 @@ The following content desribes the prosedure to update/install a desired firmwar
 ############  Linux  #################
 
 > cp ./pluto.frm /media/analog/PlutoSDR/
+
 > mount | grep PlutoSDR | awk '{print $1}'
+
 > sudo eject /dev/sdb
 
 Wait 4 minutes for firmware to update!!!! Do not unplug the device.
