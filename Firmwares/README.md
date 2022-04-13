@@ -1,6 +1,6 @@
 GENERALLY
 
-The following content desribes the prosedure to update install a desired firmware.
+The following content desribes the prosedure to update/install a desired firmware.
 
 
 ############  WINDOWS OS  #################
