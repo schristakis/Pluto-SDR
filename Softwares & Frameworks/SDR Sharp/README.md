@@ -18,6 +18,6 @@ Pluto SDR is not included, so follow the prosedure below to add it:
                  
 - Open the FrontEnds.xml, located in the SDR# folder and paste the line below before the last line ( </frontendPlugins>)
 
--Then run SDR# and it wil support Pluto as well.
+- Then run SDR# and Pluto SDR will be supported as well.
 
 
