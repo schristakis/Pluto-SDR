@@ -1,5 +1,7 @@
 # Pluto-SDR
 
+!!! This Repository contains softwares, firmwares & frameworks that DO NOT use GNU Radio or Matlab. !!!
+
 ###################### Pluto SDR IP Configuration #######################
 
 When pluto is connected to the host machine, find and open the config.txt file.
